@@ -1,0 +1,1096 @@
+
+/* ::::::::::: SMART PHONE LANDSCAPE ::::::::::: */
+@media screen and (min-width: 380px) {
+
+/* :::::::: HEADER :::::::: */
+
+
+.navLinks {
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;	
+	width: 100%;
+	display: block;
+}
+
+.navLinks li {
+	margin: 0 20px;
+	
+}
+
+
+.navLinks a {
+	padding: 0;
+	font-size: .85em;
+}
+
+.here a {
+	font-size: .90em;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;	
+}
+
+hr {
+	margin: 0;
+}
+
+
+/* :::::::  MAIN PAGE :::::: */
+
+.mainGal {
+	height: 150px;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.videoSpot {
+	margin: 10px 10px;
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+}
+
+.videoSpot img {
+	width: 70%;
+}
+
+.videoSpot video {
+	width: 100%;
+}
+
+
+
+/*:: END HEADER SECTION ::*/
+/* :::::::: PAGE: ABOUT :::::::: */
+
+
+.aboutTitle {
+	height: 50px;
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0;
+
+}
+
+.title, .weekTitle {
+	height: 100%;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.title h1 {
+	margin: 0 20px;
+	text-align: left;
+	float: left;
+}
+
+.weekTitle {
+	padding-right: 20px;
+	text-align: right;
+	float: right;
+}
+
+.aboutInfo {
+	width: 100%;
+	margin: 0;
+}
+
+.weekPic {
+	margin: 0 10px 0 0;
+	height: 35%;
+	width: 35%;
+	float: left;
+}
+
+.funFacts {
+	text-align: left;
+	vertical-align: top;
+	width: 95%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+
+
+/*:: END ABOUT SECTION ::*/
+/* :::::::: PAGE: REGISTRY :::::::: */
+
+
+.regTitle {
+	margin: 0;
+	text-align: center;
+}
+
+#wrapper {
+	max-width: 90%;
+	margin: 20px auto;
+	padding: 0;
+
+}
+
+.regBlock {
+	height: 45%;
+	width: 100%;
+	margin: 0;
+}
+
+.regBlock h2 {
+	width: 55%;
+	margin: 0 0 5px 0;
+	text-align: left;
+	float: right;
+}
+
+.regBlock img {
+	height: 100%;
+	width: 100px;
+	margin: 0 20px 20px 20px;
+	float: left;
+}
+
+
+.regOL {
+	height: 130px;
+	width: 55%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+	float: right;
+}
+
+.regOL li p{
+	display: block;
+	text-align: left;
+	height: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+.regBlockLoans {
+	height: 45%;
+	width: 98%;
+	margin: 0;
+}
+
+.regBlockLoans img {
+	margin: 0 1em;
+	width: 25%;
+	float: left;
+}
+
+.regLoansText {
+	width: 55%;
+	float: right;
+	text-align: left;
+	margin: 0;
+}
+
+.regLoansText h2 {
+	text-align: left;
+	font-size: 1.2em;
+}
+
+/*:: END REGISTRY SECTION ::*/
+/* :::::::: PAGE LOANS FORUM :::::::: */
+
+
+.loanICON {
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.loanICON img {
+	width: 20%;
+	margin: 0 20px 0 0;
+	float: left;
+}
+.loanICON p {
+	width: 70%;
+	margin: 20px 0; 
+	text-align: left;
+	font-size: 1em;
+	float: right;
+}
+
+.loan-group {
+	margin: 0 0 50px 0;
+	background: yellow;
+}
+
+.loan-group label {
+	width: 150px;
+	margin: 0 20px 0 0;
+	float: left;
+}
+
+.loan-group input {
+	width: 50%;
+	margin: 0 20px 0 0;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	text-align: left;
+	float: left;
+}
+
+.loanButtons {
+	width: 100%;
+	padding: 0;
+	display: inline-block;
+}
+
+
+#input {
+	width: 50%;
+	margin: 10px 0;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	float: left;
+}
+
+
+.loanQuote {
+	margin: 0 auto;
+	width: 70%;	
+	font-size: 1em;
+}
+
+.loanQuote p {
+	text-align: left;
+	color: #112a4e;
+
+}
+
+#mailButton {
+	width: 125px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: #000;
+	color: #e8edab;
+	letter-spacing: 2px;
+	background-color: #0088a8;
+	font-weight: bold;
+	font-size: .85em;
+	text-align: center;
+}
+
+#resetButton {
+	width: 125px;
+	height: 50px;
+	padding: 0 auto;
+	border-radius: 5px;
+	border-color: #000;
+	color: #0088a8;
+	letter-spacing: 2px;
+	background-color: #bad3ee;
+	font-weight: bold;
+	font-size: .85em;
+	text-align: center;
+}
+
+#loanForm {
+	margin: 1.75em 0;
+	width: 100%;
+	padding: 0;
+	float: left;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	
+
+}
+
+input {
+	margin: .25em ;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+textarea {
+	max-width: 100%;
+}
+
+
+
+
+
+
+/*:: END LOANS SECTION ::*/
+/* :::::::: PAGE: GAME :::::::: */
+
+.winner {
+	width: 500px;
+	text-align: center;
+}
+
+
+.winner ol {
+	text-align: left;
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	padding: 0 0 0 10px;
+}
+
+
+.winner ol li {
+	font-size: 1em;
+
+}
+
+
+
+
+/* :::::::: GUESSING FORM :::::::: */
+.pure-control-group label {
+	text-align: right;
+	vertical-align: middle;
+	width: 5em;
+	margin: 5px 1em 0 0;
+	float: left;
+}
+
+
+.pure-control-group input {
+	width: 65%;
+	margin: 5px 0 0 0;
+	border-radius: 5px;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+.ampmBox{
+	margin: 0;
+	float: left;
+	width: 30%;
+}
+
+.AMPM {
+	text-align: left;
+	height: 30px;
+	width: 40%;
+	margin: 0 0 0 5px;
+}
+
+.AMPM input[type=radio] {
+	height: 15px;
+	width: 15px;
+	margin: 0;
+}
+
+
+.AMPM label {
+	float: none;
+	height: 20px;
+	width: 20px;
+	margin: 0 5px;
+	text-align: left;
+	font-weight: bold;
+	font-size: .75em;
+}
+
+
+/*:: END GAME SECTION ::*/
+/* :::::::: PAGE: FAIL / SUBMISSION :::::::: */
+
+.submissionText {
+	height: 100px;
+	width: 74%;
+	margin: 0 1% 0 0;
+	float: left;
+}
+
+.submissionText h1, p {
+	margin: 0;
+}
+
+.backButton {
+	height: 25%;
+	width: 25%;
+	padding: 0;
+	margin: 10px 0 0 0;
+	float: right;
+	text-align: center;
+}
+
+.backButton img {
+	width: 100%;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} /* ENDS MEDIA QUERY
+/* ::::::::::: TABLET MONITORS ::::::::::: */
+@media screen and (min-width: 660px) {
+
+
+.imgCont {
+    width: 400px;
+    height: 479px;
+    border-radius: 80px;
+}
+
+.imgCont img {
+    top: -32px;
+    position: relative;
+    left: 0;
+}
+
+/* :::::::: HEADER :::::::: */
+
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+
+
+
+
+.navLinks {
+	padding: 5px 0 0 0;
+	overflow: hidden;
+	text-align: right;	
+	width: 65%;
+	
+}
+
+.navLinks li {
+	display: inline-block;
+	margin: 5px 5px;
+	
+	
+}
+
+
+.navLinks a {
+	padding: 0;
+	font-size: .95em;
+
+}
+
+.logo {
+	text-align: right;
+	margin: 0;
+	width: 35%;	
+	float: left;
+}
+
+
+hr {
+	margin: 30px 0 0 0;
+}
+
+
+
+/* :::::::  MAIN PAGE :::::: */
+
+.mainGal {
+	height: 300px;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.videoSpot {
+	margin: 10px 20px;
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;	
+}
+
+.videoSpot img {
+	width: 70%;
+}
+
+.videoSpot video {
+	width: 100%;
+}
+
+
+
+/*:: END HEADER SECTION ::*/
+/* :::::::: PAGE: ABOUT :::::::: */
+
+
+.aboutTitle {
+	width: 100%;
+	height: 75px;
+	margin: 0 0 40px 0;
+	padding: 0;
+}
+
+.title, .weekTitle {
+	width: auto;
+	padding: 0;
+}
+
+.title h1 {
+	height: auto;
+	text-align: left;
+	margin: 0 0 0 40px;
+}
+
+.weekTitle {
+	height: auto;
+	padding: 0;
+	margin: 0 40px 0 0;
+	margin-bottom: auto;
+	text-align: right;
+}
+
+
+
+.aboutInfo {
+	margin: 0;
+}
+
+.weekPic {
+	margin: 0 1em 1em 1.5em;
+	height: auto;
+	width: 45%;
+	float: left;
+}
+
+
+.funFacts {
+	text-align: left;
+	width: 95%;
+	margin: 0;
+	font-family: 'Open Sans';
+	
+}
+
+
+
+/*:: END ABOUT SECTION ::*/
+/* :::::::: PAGE: REGISTRY :::::::: */
+
+.regTitle {
+	
+	text-align: center;
+}
+
+.regTitle p {
+	margin: 0 3em;
+	text-align: center;
+}
+
+
+.wrapper {
+	height: auto;
+	margin: 20px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.regBlock {
+	height: 28%;
+	width: 28%;
+	margin: 0 2%;
+	padding: 0;
+	float: none;
+	display: inline-block;
+}
+
+.regBlock h2 {
+	width: 100%;
+	text-align: center;
+	font-size: .85em;
+}
+
+.regBlock img {
+	height: 100%;
+	width: 75%;
+}
+
+.regOL {
+	height: 115px;
+	width: 80%;
+	margin: 5px 0 0 0;
+	padding: 0;
+	font-family: 'Open Sans';
+}
+
+.regOL li h3{
+	float: left;
+	display: inline-block;
+	text-align: left;
+	height: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.regBlockLoans {
+	height: 25%;
+	width: 28%;
+	margin: 0 2%;
+	float: none;
+	display: inline-block;
+}
+
+.regBlockLoans img {
+	width: 75%;
+}
+
+.regLoansText {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;	
+}
+
+.regLoansText h2 {
+	text-align: center;
+}
+
+
+
+/*:: END REGISTRY SECTION ::*/
+/* :::::::: PAGE LOANS FORUM :::::::: */
+
+
+.loanICON {
+	height: 150px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.loanICON img {
+	width: 100px;
+	margin: 0 25px;
+	float: center;
+}
+.loanICON p {
+	height: auto;
+	width: 450px;
+	margin: 45px 0 0 0;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+
+
+.loanFormBox {
+	margin: 0 0 0 10px;
+	width: 600px;
+	text-align: center;
+}
+
+
+.loan-group label {
+	text-align: left;
+	display: block;
+	vertical-align: middle;
+	width: 5em;
+	margin: 0 1em 0 0;
+
+}
+
+.loan-group input {
+	width: 60%;
+	margin: .25em ;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+.loan-group select {
+  	border: solid;
+  	font-size: 16px;
+  	height: auto;
+  	margin: 0;
+  	outline: 200px;
+  	padding: 10px;
+  	width: 20.5%;
+  	color: #0088a8;
+  	background-color: none;
+  	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  	margin-bottom: 30px;
+  	display: inline-block;
+  	text-align: right;
+}
+
+.regOL li:before {
+	color: yellow;
+}
+
+#input {
+	margin: .25em;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+
+.loanQuote {
+	width: 500px;
+	margin: 0 100px;
+	font-size: 1em;
+	padding: 0;
+}
+
+.loanQuote p {
+	color: #112a4e;
+}
+
+#mailButton {
+	border-radius: 25px;
+	border-color: #000;
+	padding: 5px 25px;
+	color: #e8edab;
+	letter-spacing: 2px;
+	background-color: #0088a8;
+	font-weight: bold;
+}
+
+#loanForm {
+	margin: 1.75em 0;
+	padding: 0;
+	float: left;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+
+}
+
+input {
+	margin: .25em ;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+
+}
+
+
+/*:: END LOANS SECTION ::*/
+/* :::::::: PAGE: GAME :::::::: */
+
+.winner {
+	font-size: 1.2em;
+}
+
+.winner ol li {
+	font-size: 1em;
+}
+
+.guessTitle {
+	font-size: 1.3em;
+}
+
+/* :::::::: GUESSING FORM :::::::: */
+
+#gameBaby {
+	width: 550px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.failButton {
+	width: 100;
+}
+
+fieldset {
+	border: none;
+	
+}
+
+.pure-control-group {
+	margin: 0 0 10px 0;
+}
+
+.pure-control-group label {
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20%;
+	margin: 0 20px;
+}
+
+.pure-control-group input {
+	width: 60%;
+	margin: 0;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+.pure-control-group select {
+  	border: solid;
+  	font-size: 16px;
+  	height: auto;
+  	margin: 0 0 10px 0;
+  	width: 40%;
+}
+
+
+
+.pure-control-group .timeBox {
+	width: 20%;
+  }
+
+.ampmBox{
+	margin: 0;
+	float: left;
+	width: 20%;
+}
+
+.AMPM {
+	text-align: left;
+	height: 30px;
+	width: 40%;
+	margin: 0 0 0 5px;
+}
+
+.AMPM input[type=radio] {
+	height: 15px;
+	width: 15px;
+	margin: 0;
+}
+
+
+.AMPM label {
+	float: none;
+	height: 20px;
+	width: 20px;
+	margin: 0 2px;
+	text-align: left;
+	font-weight: bold;
+	font-size: .75em;
+}
+
+
+.guessButton {
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;	
+}
+
+
+
+
+.submissionText {
+	height: 125px;
+	width: 350px;
+	margin: 0 auto;
+	float: none;
+}
+
+.submissionText h1 {
+	text-align: center;
+}
+
+
+
+.backButton {
+	height: auto;
+	width: 150px;
+	padding: 0;
+	margin: 20px auto;
+	float: none;
+	text-align: center;
+}
+
+
+.backButton img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+} /* ENDS MEDIA QUERY
+/* ::::::::::: LARGE MONITORS ::::::::::: */
+@media screen and (min-width: 800px) {
+
+/* :::::::: HEADER :::::::: */
+.navLinks {
+	margin: 20px 0;
+	padding: 10px;
+	overflow: hidden;
+	text-align: right;
+	width: 60%;
+}
+
+.navLinks li {
+	padding-left: 16px;
+	margin: 10px 0;
+}
+
+.navLinks a {
+	text-align: right;
+	padding: 14px 16px;
+	font-size: 1em;
+}
+
+.logo {
+	float: left;
+	margin: 0;
+	width: 35%;
+}
+
+/*:: END HEADER SECTION ::*/
+
+
+
+/* :::::::  MAIN PAGE :::::: */
+
+.mainGal {
+	height: 600px;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.videoSpot {
+	margin: 10px 20px;
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;	
+}
+
+.videoSpot img {
+	width: 70%;
+}
+
+.videoSpot video {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :::::::: PAGE: ABOUT :::::::: */
+
+.title {
+	text-align: left;
+	margin: 0;
+	text-decoration: none;
+	float: left;
+}
+
+
+.weekPic {
+	margin: 0 1em 1em 1.5em;
+	height: auto;
+	width: 35%;
+	float: left;
+}
+
+
+.funFacts {
+	text-align: left;
+	width: 95%;
+	margin: 0;
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	
+}
+
+.weekTitle {
+	text-align: right;
+	margin: 0 25px;
+	
+}
+
+/*:: END ABOUT SECTION ::*/
+/* :::::::: PAGE: REGISTRY :::::::: */
+
+
+
+.regBlock, .regBlockLoans {
+	width: 200px;
+
+}
+
+
+
+
+/*:: END REGISTRY SECTION ::*/
+/* :::::::: PAGE LOANS FORUM :::::::: */
+
+
+.loanICON p {
+	float: none;
+	text-align: left;
+	width: 80%;
+}
+
+.loanFormBox {
+	width: 50%;
+	margin: 0 25%;
+}
+
+
+
+
+} /*:: END QUERY ::*/	

@@ -1,0 +1,685 @@
+/* :::::::: HEADER :::::::: */
+
+.imgCont {
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.imgCont img {
+    top: 0;
+    position: relative;
+    left: 0;
+}
+
+.aboutTXT {
+    text-align: center;
+}
+
+.aboutTXT h2 {
+    margin-bottom: 12px;
+}
+
+.aboutTXT p {
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.aboutTXT h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.agertxt {
+	font-style: italic;
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.navLinks {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
+}
+
+.navLinks li {
+	height: 24px;
+	width: 100%;
+	display: block;
+	margin: 5px 10px;
+	padding: 0;
+}
+
+
+.navLinks a {
+	height: 24px;
+	width: 100%;
+	text-transform: uppercase;	
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	font-size: .75em;
+
+}
+
+.logo {
+	text-align: center;
+	margin: 0;
+	width: 95%;	
+}
+
+.logo img {
+	width: 100%;
+}
+
+
+
+hr {
+	border: 0;
+	height: 12px;
+	background: url('../img/hr_line.png') repeat-x top center;
+	background-position: 5px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* :::::::: GENERAL :::::::: */
+
+
+h1 {
+	font-family: 'Amatic SC';
+	font-size: 36px;
+}
+
+h2 {
+
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+h3 {
+
+	font-family: 'Open Sans';
+	font-size: .95em;
+}
+
+p {
+
+	font-family: 'Open Sans';
+	font-size: .95em;
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+.submissionText {
+	width: 100%;
+	margin: 0;
+}
+
+
+.backButton {
+	width: 100%;
+	margin: 0;
+}
+
+.backButton img {
+	width: 35%;
+	margin: 0 32.5%;
+}
+
+
+
+/* :::::::  MAIN PAGE :::::: */
+
+.mainGal {
+	width: 100%;
+	margin: 10px auto;
+}
+
+.videoSpot {
+	margin: 20px auto;
+	width: 90%;
+	text-align: center;
+}
+
+.videoSpot img {
+	width: 60%;
+}
+
+.videoSpot video {
+	width: 100%;
+}
+
+
+
+
+/* :::::::: PAGE ABOUT :::::::: */
+
+.aboutTitle {
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.title, .weekTitle {
+	height: 50%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+
+.aboutInfo {
+	width: 100%;
+	margin: 0;
+}
+
+.weekPic {
+	margin: 0 auto;
+	height: 85%;
+	width: 85%;
+}
+
+.funFacts {
+	text-align: left;
+	vertical-align: top;
+	width: 95%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+
+/* :::::::: PAGE: REGISTRY :::::::*/
+/* :::::::: GALLERY ::::::: */
+
+.regTitle {
+	
+	text-align: center;
+}
+
+.regTitle p {
+	margin: 0 1em;
+	text-align: left;
+}
+
+#wrapper {
+	width: 100%;
+	margin-top: 5px;
+	padding: 0;
+
+}
+
+.regBlock {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+}
+
+.regBlock img {
+	margin: 0 25%;
+	width: 50%;
+	
+}
+
+.regOL {
+	height: auto;
+	width: 100%;
+	margin: 0 0 20px 20px;
+	padding: 0;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+.regBlock h2 {
+	text-align: center;
+	font-size: 1em;
+	
+}
+
+.regOL li p{
+	float: left;
+	display: block;
+	text-align: left;
+	height: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.regBlockLoans {
+	height: 45%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	float: center;
+}
+
+.regBlockLoans img {
+	margin: 0 27.5%;
+	width: 45%;
+}
+
+.regLoansText {
+	width: 100%;
+	margin: 0;
+}
+
+.regLoansText a {
+	text-align: center;
+	text-decoration: none;
+}
+
+/*
+
+
+
+.regBlock ol li a {
+	height: .75em;
+}
+*/
+
+
+
+/*
+#regBlock {
+	width: 25%;
+}
+
+
+
+*/
+
+
+
+/* :::::::: FOOTER :::::::: */
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+
+
+/* :::::::: PAGE LOANS FORUM :::::::: */
+
+
+.loanICON {
+	width: 95%;
+	margin: 0 auto;
+	padding: 0;
+}
+.loanICON img {
+	width: 25%;
+	margin: 0 20px 0 0;
+	float: left;
+}
+.loanICON p {
+	text-align: left;
+	font-size: .95em;
+}
+
+
+
+#divloanForum{
+	margin: 0 auto;
+	padding: 0;
+	width: 95%;
+}
+
+
+.loanFormBox {
+	float: left;
+	width: 100%;
+}
+
+.loan-group {
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+
+.loan-group label {
+	text-align: left;
+	width: 5em;
+	margin: 0;
+}
+
+.loan-group input {
+	width: 95%;
+	margin: 0 ;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+.loanButtons {
+	display: inline-block;
+}
+
+.regOL li:before {
+	color: yellow;
+}
+
+#input {
+	margin: .25em;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+
+.loanQuote {
+	float: left;
+	margin: 0 .5em ;
+	font-size: 1em;
+	max-width: 400px;
+}
+
+.loanQuote p {
+	color: #112a4e;
+}
+
+#mailButton {
+	width: 125px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: #000;
+	color: #fff;
+	letter-spacing: 2px;
+	background-color: #0088a8;
+	font-weight: bold;
+	font-size: .85em;
+	text-align: center;
+}
+
+#resetButton {
+	width: 125px;
+	height: 50px;
+	padding: 0;
+	border-radius: 2px;
+	border-color: #000;
+	color: #fff;
+	letter-spacing: 2px;
+	background-color: #bad3ee;
+	font-weight: bold;
+	font-size: .85em;
+	text-align: center;
+}
+
+#loanForm {
+	margin: 1.75em 0;
+	width: 100%;
+	padding: 0;
+	float: left;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	
+
+}
+
+input {
+	margin: .25em ;
+	border-radius: 5px;
+	background-color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+textarea {
+	max-width: 100%;
+}
+
+
+
+
+
+/* :::::::: PAGE: GAME :::::::: */
+
+.winner {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+.winner ol {
+	width: 100%;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	list-style-position: inside;
+}
+
+
+.winner ol li {
+	height: auto;
+	padding: 5px;
+	margin: 0 ;
+	font-family: 'Open Sans';
+	font-size: .85em;
+}
+
+
+
+
+/* :::::::: GUESSING FORM :::::::: */
+
+.guessTitle {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.guessTitle h1. h2 {
+	text-align: center;
+}
+
+.guessTitle p {
+	text-align: left;
+}
+#gameBaby {
+	width: 90%;
+ 	margin: 0;
+  	padding: 0 20px;
+  	border-radius: 8px;
+  	font-family: 'Open Sans';
+  	display: block;
+ }
+
+ #gameBaby p {
+ 	max-width: 85%;
+ 	font-family: 'Open Sans';
+ }
+
+
+.guessButton {
+  	border-radius: 5px;
+	border-color: #000;
+	padding: 5px 25px;
+	color: #fff;
+	letter-spacing: 2px;
+	background-color: #0088a8;
+	font-weight: bold;
+	font-size: 18px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0 -1px 0  rgba(255,255,255,0.1) inset;
+
+}
+
+.failButton {
+	width: 100;
+}
+
+fieldset {
+	border: none;
+	
+}
+
+.pure-control-group label {
+	text-align: left;
+	display: block;
+	vertical-align: middle;
+	width: 10em;
+	margin: 0 1em 0 0;
+
+}
+
+.pure-control-group input {
+	width: 85%;
+	margin: .25em ;
+	border-radius: 5px;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+.pure-control-group select {
+  	border: solid;
+  	font-size: 16px;
+  	height: auto;
+  	margin: 0;
+  	outline: 200px;
+  	padding: 10px;
+  	border-radius: 5px;
+  	width: 65%;
+  	color: #0088a8;
+  	background-color: none;
+  	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  	margin-bottom: 30px;
+  	display: inline-block;
+  	text-align: right;
+}
+
+
+
+.pure-control-group .timeBox {
+	
+  	border: solid;
+  	font-size: .75em;
+  	height: auto;
+  	margin: 0 5px;
+  	padding: 5px;
+  	width: 20%;
+  	color: #0088a8;
+  	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  	margin-bottom: 30px;
+  	display: inline-block;
+  	text-align: right;
+  	float: left;
+
+}
+
+.ampmBox{
+	float: left;
+	width: 50%;
+}
+
+.AMPM {
+	text-align: left;
+	height: 50px;
+	width: 40%;
+	margin: 0 0 0 5px;
+	display: inline-block;
+}
+
+.AMPM input[type=radio] {
+	height: 15px;
+	width: 15px;
+	margin: 0 5px 0 0;
+}
+
+
+.AMPM label {
+	height: 30px;
+	width: 10px;
+	text-align: left;
+	font-weight: bold;
+	font-size: .75em;
+	display: inline-block;
+}
+
+.gameButton {
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
+
+
+
+/* :::::::: COLORS :::::::: */
+
+
+h1 {
+
+	color: #0088a8;
+}
+
+h2 {
+	color: #ccd53d;
+}
+
+h3 {
+
+	color: #112a4e; 
+}
+
+a {
+	color: #112a4e;
+}
+/*
+li a:hover {
+	background-color: #e8edab;
+	border-radius: 25px;
+}
+*/
+/*
+.regBlock li a:hover {
+	background-color: #fff;
+	border-radius: 25px;
+}
+*/
+.regBlock ol li h3:hover {
+	color: #e8edab;
+	border-radius: 5px;
+}
+
+a:visited {
+	color: #0088a8;
+	border-radius: 25px;
+}
+
+.here a {
+	font-size: .85em;
+	color: #000;
+}

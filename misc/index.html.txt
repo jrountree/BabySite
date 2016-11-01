@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Baby James</title>
+	<link rel="stylesheet" href="style.css">
+  
+</head>
+<header>
+	<a href='/index.html'> <img src="logo.jpg" alt="Logo"></a>
+	<nav>
+		<li class="other"><a href='.../about.html'>About the Baby</a></li>
+		<li class="other"><a href='.../registry.html'>Registry</a></li>
+		<li class="other"><a href='.../game.html'>Guess When Baby is Born</a></li>
+	</nav>
+	<hr>
+</header>
+
+<body>
+
+	<script src="babyPic.js"></script>	
+
+</body>
+</html>

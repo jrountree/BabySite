@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Baby James</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  
+</head>
+<header>
+	<a href='/index.html'> <img src="logo.jpg" alt="Logo"></a>
+	<nav>
+		<li class="other"><a href='/about.html'>About the Baby</a></li>
+		<li class="current"><a href='/registry.html'>Registry</a></li>
+		<li class="other"><a href='/game.html'>Guess When Baby is Born</a></li>
+	</nav>
+	<hr>
+</header>
+
+<body>
+	<h2>Registry</h2>
+	<p>These are the places we have registered:</p>
+	
+	<script src="registry.js"></script>	
+	
+
+</body>
+</html>
